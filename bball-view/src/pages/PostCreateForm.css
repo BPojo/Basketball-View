@@ -1,0 +1,66 @@
+.post-create-form {
+  max-width: 600px; /* or your preferred width */
+  margin: 80px auto; /* top and bottom margin 80px, auto on left and right centers the form */
+  padding: 40px; /* uniform padding on all sides */
+  background-color: #f8f9fa;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  border: 1px solid #eaecef;
+  box-sizing: border-box; /* makes sure padding doesn't affect the overall width */
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.post-create-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600; /* Bolder labels */
+  color: #495057; /* Dark gray for label text */
+}
+
+.post-create-form input[type="text"],
+.post-create-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem; /* Comfortable padding */
+  margin-bottom: 1.5rem;
+  border: 2px solid #ced4da; /* Thicker border for the inputs */
+  border-radius: 0.375rem; /* Slightly rounded corners for the inputs */
+  background-color: #fff; /* White background for the inputs */
+  font-size: 0.875rem;
+  transition: border-color 0.15s ease-in-out; /* Smooth transition for focus */
+  color: #000;
+}
+
+.post-create-form input[type="text"]:focus,
+.post-create-form textarea:focus {
+  border-color: #80bdff; /* Highlight color for focused inputs */
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Glow effect on focus */
+}
+
+.post-create-form button {
+  width: 100%;
+  padding: 0.75rem 0; /* Uniform padding */
+  background-color: #007bff; /* Vivid blue for the button */
+  color: white;
+  border: none;
+  border-radius: 0.375rem; /* Matching border-radius */
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 400; /* Regular font weight for the button */
+  text-transform: uppercase; /* Uppercase text for a button */
+  letter-spacing: 0.05rem; /* Spacing out letters for better legibility */
+  transition: background-color 0.15s ease-in-out; /* Smooth transition for hover */
+  margin-top: 1rem; /* Space above the button */
+}
+
+.post-create-form button:hover {
+  background-color: #0056b3; /* Darker shade of blue for hover */
+}
+
+.error {
+  color: #dc3545; /* Standard red for errors */
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
