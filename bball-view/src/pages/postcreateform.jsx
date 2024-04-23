@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../client'; // make sure this path is correct
-import './PostCreateForm.css'; // Adjust the import path according to your project structure
+import './postcreateform.css'; // Adjust the import path according to your project structure
 
 
 const PostCreateForm = () => {

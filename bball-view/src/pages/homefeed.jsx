@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './HomeFeed.css'; // Ensure you have the correct path to your CSS file
+import './homefeed.css'; // Ensure you have the correct path to your CSS file
 import { supabase } from '../client';
 import moment from 'moment'; // You'll need to install moment for date formatting
 

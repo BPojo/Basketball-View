@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { supabase } from '../client';
-import './PostDetail.css'; // Make sure you create this CSS file
+import './postdetail.css'; // Make sure you create this CSS file
 
 const PostDetail = () => {
   const { postId } = useParams();
