@@ -12,7 +12,6 @@ dist
 dist-ssr
 *.local
 
-client.js
 
 # Editor directories and files
 .vscode/*
