@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomeFeed from './pages/HomeFeed';
-import PostCreateForm from './pages/PostCreateForm';
-import Header from './components/Header';
-import PostDetail from './pages/PostDetail';
-import PostEditForm from './pages/PostEditForm';
+import HomeFeed from './pages/homefeed';
+import PostCreateForm from './pages/postcreateform';
+import Header from './components/header';
+import PostDetail from './pages/postdetail';
+import PostEditForm from './pages/posteditform';
 
 function App() {
   return (
